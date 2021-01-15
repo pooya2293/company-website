@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -13,12 +13,8 @@
     <!-- style css file -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!-- [if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif] -->
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/9410a2e8df.js" crossorigin="anonymous"></script>
 
     <!-- temperorry liveRelad tag  -->
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
@@ -28,14 +24,20 @@
     
     <div class="navbar navbar-inverse">
       <div class="container-fluid">
-        <div class="navbar-brand">
-          <a href="#"><img src="images/LogoMakr-7L3Qzz.png"></a>
+        <div class="row">
+          <div class="col-xs-4">
+             <div class="navbar-brand">
+               <a href="#"><img src="images/LogoMakr-7L3Qzz.png"></a>
+            </div>
+          </div>  
+              <div class="col-xs-8">
+                <div class="dropdown">
+                <button class="btn btn-primary"><span class="a"><i class="fa fa-bars"></i></span></button>
+                </div>
+              </div>
         </div>
-        
       </div>
-      
     </div>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
