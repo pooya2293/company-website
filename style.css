@@ -1,6 +1,7 @@
 body, html {
   height:100%;
   margin: 0;
+  background-color:#363030;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -39,9 +40,19 @@ text-align:center;
 
 /*logo brand image*/
 .navbar-brand img{
+	opacity:50%;
 	width:60px;
 	height:40px;
 	margin:-10px -5px;
+}
+
+.navbar-brand:hover{
+	opacity:100%;
+
+/*shadow png object*/
+-webkit-filter: drop-shadow(1px 1px 3px #FFF);
+  filter: drop-shadow(1px 1px 3px #FFF);
+  cursor:pointer;
 }
 
 .col-md-4 img {
@@ -59,7 +70,16 @@ h1 {
 }
 
 .footer {
-	margin-bottom: 1px;
+	/*fix footer sticky*/
+	/*position:absolute;*/
+	/*margin-bottom:-90;*/
+	/*left:0;*/
+	/*bottom:-90px;*/
+	margin:356px 0 1px 0;
+	width:100%;
+	text-align:center;
+
+
 	background:rgba(0, 51, 102,0.7);
 	background-color:rgba();
 	height:47px;
