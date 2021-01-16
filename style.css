@@ -2,22 +2,40 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 * {
   box-sizing: border-box;
+
 }
 
 .bg-image {
 	background-image: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1758-1024x1536.jpg) ;
 	/*full height*/
-	height:100%;
+	height:220%;
 	/*add blur*/
 	filter:blur(2px);
 	/*center and scale the image nicely*/
 	background-position: center;
 	background-size: cover;
+	/*i think its for IE old version*/
 	background-repeat: cover;
+
+}
+
+.conainer-fluid {
+/*dellet x overflow
+overflow-x:hidden;
+/*absolute position*/
+position:absolute;
+background-color: rgb(3,10,130);
+background-color:rgba(0,0,0,0.4);
+top:0%;
+width:100%;
+color:#fff;
+text-align:center;
+
 }
 
 .navbar {
