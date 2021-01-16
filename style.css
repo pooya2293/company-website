@@ -1,3 +1,25 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+	background-image: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1758-1024x1536.jpg) ;
+	/*full height*/
+	height:100%;
+	/*add blur*/
+	filter:blur(2px);
+	/*center and scale the image nicely*/
+	background-position: center;
+	background-size: cover;
+	background-repeat: cover;
+}
+
 .navbar {
 	background:#081b2b;
 	height:80px;
@@ -10,11 +32,12 @@
 }
 
 .dropdown {
+
 	margin:30px 0 ;
 
  }
 
-.col-sm-4 img {
+.col-md-4 img {
 	width:280px;
 	height:260px;
 	margin-top:40px;
@@ -24,8 +47,9 @@
  margin-left: 45px;
 }
 
-.col-sm-4  {
+.col-md-4  {
 	text-align:center;
+	color:#fff;
 }
 
 .footer {
