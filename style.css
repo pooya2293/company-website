@@ -40,7 +40,13 @@ text-align:center;
 
 .navbar {
 	background:rgba(0, 51, 102,0.74);
-	height:80px;
+/*auto header for collapse*/
+	height:auto;
+}
+
+.navbar ul{
+	margin-right:-20px;
+	
 }
 
 .navbar-brand img{
