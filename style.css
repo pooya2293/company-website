@@ -1,14 +1,15 @@
 /*add farsi fonts*/
 /*fix font in net*/
 /*@font-face {
-font-family: 'lalezar';
-src: url(font/lalezar.otf) format('otf');
-src: url(font/lalezar.ttf) format('truetype');
-font-weight: normal;
-font-style: normal;
+  font-family: FontName;
+  src: url('Shabnam-Bold.eot');
+  src: url('Shabnam-Bold.eot?#iefix') format('FontName-opentype'),
+       url('FontName.woff') format('woff'),
+       url('FontName.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }*/
-
-@font-face {
+/*@font-face {
      font-family: 'Lalezar';
      src: url("https://fdn.fontcdn.ir/Fonts/Lalezar/e6bfcacc4a01f1e1a6c149241fa51d3f9ad5354aaf941ff2a03b917754fa82c1.eot");
      src: url("https://fdn.fontcdn.ir/Fonts/Lalezar/e6bfcacc4a01f1e1a6c149241fa51d3f9ad5354aaf941ff2a03b917754fa82c1.eot?#iefix") format("embedded-opentype"),
@@ -20,6 +21,18 @@ font-style: normal;
      font-style: normal;
 }
 @import url('https://v1.fontapi.ir/css/Lalezar');
+*/
+@font-face {
+font-family: Shabnam-Bold;
+src: url('Shabnam-Bold.eot');
+src: url('./font/Shabnam-Bold.eot?#iefix') format('Shabnam-Bold-opentype'),
+url('./font/Shabnam-Bold.woff') format('woff'),
+url('Shabnam-Bold.ttf') format('truetype'),
+url('Shabnam-Bold.woff2') format('woff2');
+font-weight: normal;
+font-style: bold;
+}
+
 
 body, html {
   height:100%;
@@ -88,7 +101,8 @@ text-align:center;
 h1 {
 	margin-top:46px;
 	/*font-family: "lalezar";*/
-	font-family: 'Lalezar', sans-serif;
+	/*font-family: 'Lalezar', sans-serif;*/
+	font-family: Shabnam-Bold;
 }
 
 #price{
