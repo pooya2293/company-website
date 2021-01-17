@@ -1,8 +1,20 @@
+/*add farsi fonts*/
+@font-face {
+font-family: 'Lalezar-Regular';
+src: url('font/Lalezar-Regular.otf');
+src: url('font/Lalezar-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+
 body, html {
   height:100%;
   margin: 0;
   background-color:#363030;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif ;
+  font-family: "Lalezar-Regular";
+
 }
 
 * {
