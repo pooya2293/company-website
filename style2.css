@@ -104,3 +104,40 @@ body {
 .container {
 	max-width:1100px;
 }
+
+.contact{
+	text-align:center;
+	margin-top:30px;
+}
+
+.btn {
+	background-color: rgba(38,32,32,0.89);
+	border:none;
+	border-radius:10px;
+	color:#fff;
+	padding:15px 50px;
+	margin-bottom:100px;
+	font-size:16px;
+
+}
+.btn:hover {
+	background-color: rgba(38,32,32,0.01);
+	color:rgb(38,32,32);
+	border:solid 1px #fff;
+}
+
+/*style footer*/
+.footer{
+	background-color:rgba(0,0,0,0.68);
+	color:grey;
+	padding:50px;
+	font-size:16px;
+}
+
+/*use media tag for decrease image size for smal devises*/
+@media (max-width: 768px) {
+	.bodyimage {
+		height:120px;
+	}
+}
+
