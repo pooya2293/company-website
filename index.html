@@ -23,7 +23,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <!-- <![endif] -->
     <!-- link style css file  -->
-    <link rel="stylesheet" type="text/css" href="style.css?<?=filemtime('style.css');?>">
+    <link rel="stylesheet" type="text/css" href="style.css?<?=3filemtime('style.css');?>">
 
     <!-- fontAwesome link cdn -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -31,11 +31,15 @@
     <!-- font farsi link Lalezar -->
    <!--  <link href="https://v1.fontapi.ir/css/Lalezar" rel="stylesheet"> -->
 
+   <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
   </head>
   <body>
 
+
    <div class="bg-image"></div>
    <div class="conainer-fluid">
+    <div id="deviceSize"></div>
     <div class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -95,5 +99,37 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- <script src="js/bootstrap.min.js"></script> -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+    script formula hase computing window size
+    <script>
+      $(function(){
+        $( window ).resize(function() {
+          var windowWidth = $(window).width();
+          if(windowWidth<576){
+            $('#deviceSize').text('Device Size: ' + windowWidth + 'px -  Extra small devices (Phones and other divises)');
+            
+          }
+          else if(windowWidth<768){
+            $('#deviceSize').text('Device Size: ' + windowWidth + 'px -  small devices (Phones)');
+            
+          }
+          else if(windowWidth<992){
+            $('#deviceSize').text('Device Size: ' + windowWidth + 'px - Medium devices (Tablets)');
+            
+          }
+          else if(windowWidth<1200){
+            $('#deviceSize').text('Device Size: ' + windowWidth + 'px - Large devices (Desktops)');
+            
+          }
+          else{
+            $('#deviceSize').text('Device Size: ' + windowWidth + 'px - Extra large (Desktops & TV)');
+            
+          }
+        }
+                          );
+        
+      }
+       );
+    </script>
   </body>
 </html>
