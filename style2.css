@@ -1,0 +1,41 @@
+/*add farsi fonts*/
+/*fix font in net*/
+/*@font-face {
+  font-family: FontName;
+  src: url('Shabnam-Bold.eot');
+  src: url('Shabnam-Bold.eot?#iefix') format('FontName-opentype'),
+       url('FontName.woff') format('woff'),
+       url('FontName.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}*/
+/*@font-face {
+     font-family: 'Lalezar';
+     src: url("https://fdn.fontcdn.ir/Fonts/Lalezar/e6bfcacc4a01f1e1a6c149241fa51d3f9ad5354aaf941ff2a03b917754fa82c1.eot");
+     src: url("https://fdn.fontcdn.ir/Fonts/Lalezar/e6bfcacc4a01f1e1a6c149241fa51d3f9ad5354aaf941ff2a03b917754fa82c1.eot?#iefix") format("embedded-opentype"),
+          url("https://fdn.fontcdn.ir/Fonts/Lalezar/148c72044161f7fdd874a7743f5402f15b04bc2b9a609d2734deb22057bef2d5.woff2") format("woff2"),
+          url("https://fdn.fontcdn.ir/Fonts/Lalezar/a35ccfec33d9dc09ca7507cbdccba5fc76310f56c1cc7c0a17f9fc37ef4887d5.woff") format("woff"),
+          url("https://fdn.fontcdn.ir/Fonts/Lalezar/7b80807bc831f141de0f7dcf6816412bf0c548968d548c5156ca388733390ea9.ttf") format("truetype"),
+          url("https://fdn.fontcdn.ir/Fonts/Lalezar/62e76c3766b9364593c8e4552aa039f3a55e551211447560d7186eb04416542a.otf") format("opentype");
+     font-weight: 400;
+     font-style: normal;
+}
+@import url('https://v1.fontapi.ir/css/Lalezar');
+*/
+
+
+
+
+@font-face {
+font-family: Shabnam-Bold;
+src: url('Shabnam-Bold.eot');
+src: url('./font/Shabnam-Bold.eot?#iefix') format('Shabnam-Bold-opentype'),
+url('./font/Shabnam-Bold.woff') format('woff'),
+url('Shabnam-Bold.ttf') format('truetype'),
+url('Shabnam-Bold.woff2') format('woff2');
+font-weight: normal;
+font-style: bold;
+}
+
+
+
