@@ -49,3 +49,26 @@ body {
 .logo {
 	height:30px;
 }
+
+.navbar-inverse {
+	opacity:80%;
+}
+
+.nav li{
+	color: #fff;
+	font-size: 17px;
+	margin-right: 20px;
+	padding: 7.6px 0;
+	text-align:center;
+}
+
+/*logo hover light*/
+.navbar-brand:hover{
+	opacity:100%;
+
+/*shadow png object*/
+-webkit-filter: drop-shadow(1px 1px 3px #FFF);
+  filter: drop-shadow(1px 1px 3px #FFF);
+  cursor:pointer;
+}
+
