@@ -37,5 +37,10 @@ font-weight: normal;
 font-style: bold;
 }
 
-
-
+/*creating background */
+body {
+	font-family:Shabnam-Bold;
+	background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1758-1024x1536.jpg) no-repeat center center;
+	background-attachment:fixed;
+	background-size:cover;
+}
