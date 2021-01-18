@@ -22,6 +22,20 @@
 }
 @import url('https://v1.fontapi.ir/css/Lalezar');
 */
+
+/* Medium devices (tablets, 768px and up)*/
+/*it should work in tablet size and up but just work in tablet size not up*/
+@media (min-width: 768px)  { 
+
+	.bg-image {
+		
+		/*full height*/
+		height:266%;
+
+	}
+
+ }
+
 @font-face {
 font-family: Shabnam-Bold;
 src: url('Shabnam-Bold.eot');
@@ -127,3 +141,4 @@ h1 {
 	color:#fff;
 
 }
+
