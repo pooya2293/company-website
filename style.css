@@ -23,18 +23,8 @@
 @import url('https://v1.fontapi.ir/css/Lalezar');
 */
 
-/* Medium devices (tablets, 768px and up)*/
-/*it should work in tablet size and up but just work in tablet size not up*/
-@media (min-width: 768px)  { 
 
-	.bg-image {
-		
-		/*full height*/
-		height:266%;
 
-	}
-
- }
 
 @font-face {
 font-family: Shabnam-Bold;
@@ -141,4 +131,54 @@ h1 {
 	color:#fff;
 
 }
+
+/* Medium devices (tablets, 768px and up)*/
+/*it should work in tablet size and up but just work in tablet size not up*/
+
+@media (max-width: 550px) { 
+
+	.bg-image {
+		
+		/*full height*/
+		height:287%;
+
+	}
+
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+	.bg-image {
+		
+		/*full height*/
+		height:270%;
+
+	}
+
+ }
+
+ /*// Large devices (desktops, 992px and up)*/
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+
+	.bg-image {
+		
+		/*full height*/
+		height:152%;
+
+	}
+
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) { 
+
+	.bg-image {
+		
+		/*full height*/
+		height:149%;
+
+	}
+
+ }
 
