@@ -41,7 +41,7 @@ font-style: bold;
 body {
 	font-family:Shabnam-Bold;
 	background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1758-1024x1536.jpg) no-repeat center center ;
-	/*background filter blure*/
+	/*background filter blure i get tag from https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter*/
 	backdrop-filter: blur(2.5px);
 	/*background-attachment:fixed;*/
 	background-size:cover;
